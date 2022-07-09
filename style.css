@@ -1,0 +1,56 @@
+#container {
+    position: absolute;
+    top: 0px;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: beige;
+    padding-top: 10vh;
+    padding-bottom: 20vh;
+    padding-left: 20vw;
+    padding-right: 20vw;
+}
+
+#table {
+    flex: 1;
+    display: grid;
+    grid-template-columns: 20vw 20vw 20vw;
+    grid-template-rows: 10vh 20vh 20vh 20vh;
+    background-color: white;
+}
+
+#header {
+    grid-row: 1;
+    grid-column: 1/4;
+    display: flex;
+    /*gap: 40vw;*/
+    justify-content: stretch;
+    align-items: center;
+    padding: 2vh;
+    background-color: beige;
+}
+
+.tile {
+    border: 0.4vw black solid;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 10vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#message-box {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 3vw;
+    flex: 1;
+}
+
+button {
+    border-radius: 1vw;
+    background-color: aquamarine;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 2vw;
+}
